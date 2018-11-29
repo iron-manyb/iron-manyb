@@ -33,7 +33,7 @@ public class tb_userinfoController {
 		   
 		   List<tb_userinfo> user=  userinfoService.quey(name,zt,num,count);
          
-		   request.setAttribute("list", user);
+		   request.setAttribute("list", user);   
 		   
 		   return "index";
 	   }
